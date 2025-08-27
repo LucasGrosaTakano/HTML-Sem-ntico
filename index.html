@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docteste</title>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    html, body{
+        height: 100%;
+    }
+    .cabecalho{
+        background-color: rgb(37, 37, 37);
+        height: 8%;
+        z-index: 2;
+    }
+    .titulo{
+        color: white;
+        font-size: 150%;
+        left: 1%;
+        top: 2.5%;
+        position: absolute;
+        font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .fundo{
+        background-image: url(img/vinland.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        z-index: 1;
+        }
+    
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/f68faf3029.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <header class="cabecalho">
+ <p class="titulo">HTML Semântico</p>
+ <i class="fa-regular fa-window-restore" style="color: white; top: 2.6%; left: 10%; position: absolute; font-size: 150%;"></i> <!-- icone do fontaweasome é considerado uma fonte pelo html-->
+    <section>
+        <img style="height: 10%; width: 100%;" src="/img/vinland.jpg" alt="teste">
+
+    </section>
+
+    <section>
+        <img style="height: 10%; width: 100%;" src="img/testando.jpg" alt="">
+    </section>
+
+ </header>
+</body>
+</html>
