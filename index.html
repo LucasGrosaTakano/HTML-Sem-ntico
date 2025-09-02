@@ -1,66 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docteste</title>
-<style>
-    *{
-        padding: 0;
-        margin: 0;
-    }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinland Saga - Uma Jornada Viking</title>
 
-    html, body{
-        height: 100%;
-    }
-    .cabecalho{
-        background-color: rgb(37, 37, 37);
-        height: 8%;
-        z-index: 2;
-    }
-    .titulo{
-        color: white;
-        font-size: 150%;
-        left: 1%;
-        top: 2.5%;
-        position: absolute;
-        font-family: "Roboto Condensed", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-    }
-    .fundo{
-        background-image: url(img/vinland.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        z-index: 1;
-        }
-    
-</style>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Roboto+Condensed&display=swap" rel="stylesheet">
-
-<script src="https://kit.fontawesome.com/f68faf3029.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
- <header class="cabecalho">
- <p class="titulo">HTML Semântico</p>
- <i class="fa-regular fa-window-restore" style="color: white; top: 2.6%; left: 10%; position: absolute; font-size: 150%;"></i> <!-- icone do fontaweasome é considerado uma fonte pelo html-->
-    <section>
-        <img style="height: 10%; width: 100%;" src="/img/vinland.jpg" alt="teste">
+  <header>
+    <h1>Vinland Saga</h1>
+    <p>Uma jornada viking de guerra, honra e reflexão</p>
+    <nav>
+      <ul>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#personagens">Personagens</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section id="historia">
+      <h2>História</h2>
+      <p>Vinland Saga conta a saga de Thorfinn, um jovem guerreiro que busca vingança pela morte de seu pai, enquanto lida com temas de guerra, poder e redenção.</p>
     </section>
 
-    <section>
-        <img style="height: 10%; width: 100%;" src="img/testando.jpg" alt="">
-    </section>
+<section id="personagens">
+  <h2>Personagens</h2>
 
- </header>
+  <article class="personagem">
+    <img src="Thorfinn.jpg" alt="Imagem de Thorfinn">
+    <div class="descricao">
+      <h3>Thorfinn</h3>
+      <p>O protagonista da série. Um jovem guerreiro em busca de vingança.</p>
+    </div>
+  </article>
+
+  <article class="personagem">
+    <img src="Askeladd.jpg" alt="Imagem de Askeladd">
+    <div class="descricao">
+      <h3>Askeladd</h3>
+      <p>Um mercenário astuto e líder de bandidos. Tem grande influência no destino de Thorfinn.</p>
+    </div>
+  </article>
+
+  <article class="personagem">
+    <img src="Canute.jpg" alt="Imagem de Canute">
+    <div class="descricao">
+      <h3>Canute</h3>
+      <p>O príncipe dinamarquês, que evolui de um jovem tímido para um governante ambicioso.</p>
+    </div>
+  </article>
+</section>
+
+
+    <section id="curiosidades">
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>O mangá foi criado por Makoto Yukimura em 2005.</li>
+        <li>A história mistura fatos históricos com ficção.</li>
+        <li>Vinland é baseado nas lendas sobre a chegada dos vikings na América.</li>
+      </ul>
+    </section>
+  </main>
+
+  <aside>
+    <h2>Saiba Mais</h2>
+    <p><a href="https://www.crunchyroll.com/pt-br/series/GEXH3WKK0/vinland-saga" target="_blank">Assista Vinland Saga</a></p>
+  </aside>
+
+  <footer id="footer"> 
+  </footer>
 </body>
 </html>
